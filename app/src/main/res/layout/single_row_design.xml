@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:outlineAmbientShadowColor="#1F3DE6"
+    app:cardUseCompatPadding="true"
+    android:background="#1F3DE6">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:padding="15dp">
+
+        <!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Name"-->
+<!--            android:text="Name:"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_below="@id/logo"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Company Name"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#000"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Average"-->
+<!--            android:text="Average Salary:"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/logo"-->
+<!--            android:layout_below="@+id/Name"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/avr_sal"-->
+<!--            android:text="Average Salary"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/Average"-->
+<!--            android:layout_below="@id/name"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Placements"-->
+<!--            android:text="Total Placements:"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/logo"-->
+<!--            android:layout_below="@+id/Average"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/placements"-->
+<!--            android:text="Total Placements"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/Placements"-->
+<!--            android:layout_below="@id/avr_sal"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Rounds"-->
+<!--            android:text="Total Rounds:"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/logo"-->
+<!--            android:layout_below="@+id/Placements"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/rounds"-->
+<!--            android:text="Total Rounds"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:layout_toRightOf="@id/Rounds"-->
+<!--            android:layout_below="@id/placements"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
