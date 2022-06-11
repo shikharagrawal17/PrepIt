@@ -3,40 +3,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:elevation="10dp"
-        app:cardCornerRadius="8dp"
-        android:background="@color/black"
-        app:cardUseCompatPadding="true"
+        android:elevation="0dp"
+        android:background="@drawable/card_edge"
         app:shapeAppearance="@style/ShapeAppearance.MyApp.MediumComponent.Cut">
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:elevation="10dp"
+            android:background="@drawable/card_edge"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+                <FrameLayout
+                    android:background="@drawable/card_edge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
 
-                <TextView
-                    android:id="@+id/question"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    android:padding="3dp"
-                    android:textSize="25dp" />
-                <TextView
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="3dp"
-                    android:id="@+id/questionLink"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:textSize="15dp"
-                    android:textColor="#40B4E8"
-                    android:autoLink="web"
-                    android:text="Hello"
-                    android:layout_below="@+id/question"
-                    />
+                        <TextView
+                            android:id="@+id/question"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:padding="3dp"
+                            android:textSize="25dp"
+                            android:text="Hello"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:id="@+id/questionLink"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15dp"
+                            android:textColor="#40B4E8"
+                            android:autoLink="web"
+                            android:text="Hello"
+                            android:layout_below="@+id/question"
+                            />
         </RelativeLayout>
 </androidx.cardview.widget.CardView>
